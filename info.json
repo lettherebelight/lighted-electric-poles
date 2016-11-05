@@ -1,0 +1,10 @@
+{
+  "name": "LightedElectricPoles",
+  "version": "1.0.0",
+  "title": "Lighted Electric Poles",
+  "author": "lettherebelight",
+  "contact": "https://forums.factorio.com/",
+  "homepage": "https://forums.factorio.com/",
+  "description": "Adds small, medium, and large elctric poles that include integrated lights",
+  "factorio_version": "0.14"
+}
