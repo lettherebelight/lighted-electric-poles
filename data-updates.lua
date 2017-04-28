@@ -8,7 +8,7 @@ table.insert(data.raw["technology"]["electric-energy-distribution-1"].effects, {
 table.insert(data.raw["technology"]["electric-energy-distribution-2"].effects, { type = "unlock-recipe", recipe = "lighted-substation" })
 
 -- Enable recipes for lighted versions if Bob's Power is enabled
-if bobmods.power then
+if bobmods and bobmods.power then
     table.insert(data.raw["technology"]["electric-pole-2"].effects, { type = "unlock-recipe", recipe = "lighted-medium-electric-pole-2" })
     table.insert(data.raw["technology"]["electric-pole-3"].effects, { type = "unlock-recipe", recipe = "lighted-medium-electric-pole-3" })
     table.insert(data.raw["technology"]["electric-pole-4"].effects, { type = "unlock-recipe", recipe = "lighted-medium-electric-pole-4" })
@@ -33,7 +33,7 @@ if poles_graphics_icons then
     data.raw["item"]["lighted-big-electric-pole"].icon = "__LightedElectricPoles__/graphics/icons/shinybob-big-electric-pole.png"
     data.raw["item"]["lighted-substation"].icon = "__LightedElectricPoles__/graphics/icons/shinybob-substation.png"
 
-    if bobmods.power then
+    if bobmods and bobmods.power then
         data.raw["electric-pole"]["lighted-medium-electric-pole-2"].icon = "__LightedElectricPoles__/graphics/icons/shinybob-medium-electric-pole-2.png"
         data.raw["electric-pole"]["lighted-medium-electric-pole-3"].icon = "__LightedElectricPoles__/graphics/icons/shinybob-medium-electric-pole-3.png"
         data.raw["electric-pole"]["lighted-medium-electric-pole-4"].icon = "__LightedElectricPoles__/graphics/icons/shinybob-medium-electric-pole-4.png"
@@ -67,7 +67,7 @@ if poles_graphics then
     data.raw["electric-pole"]["lighted-big-electric-pole"].pictures["filename"] = "__ShinyBob__/graphics/entity/poles/big-electric-pole.png"
     data.raw["electric-pole"]["lighted-substation"].pictures["filename"] = "__ShinyBob__/graphics/entity/poles/substation.png"
 
-    if bobmods.power then
+    if bobmods and bobmods.power then
         data.raw["electric-pole"]["lighted-medium-electric-pole-2"].pictures["filename"] = "__ShinyBob__/graphics/entity/poles/medium-electric-pole-2.png"
         data.raw["electric-pole"]["lighted-medium-electric-pole-3"].pictures["filename"] = "__ShinyBob__/graphics/entity/poles/medium-electric-pole-3.png"
         data.raw["electric-pole"]["lighted-medium-electric-pole-4"].pictures["filename"] = "__ShinyBob__/graphics/entity/poles/medium-electric-pole-4.png"

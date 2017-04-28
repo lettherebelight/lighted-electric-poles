@@ -1,7 +1,7 @@
 
 -- Deferring this until the update phase because the recipes undergo different revisions in Bob's mods
 -- depending which mods are installed.  We want to copy whatever the final verison is
-if bobmods.power then
+if bobmods and bobmods.power then
 
     -- Snarfed from ShinyBob
     -- Bob Electronics, replace electronic board with circuit board to allow lamps to be built earlier

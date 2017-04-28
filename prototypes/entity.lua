@@ -8,7 +8,7 @@ local lighted_substation = copy_prototype("electric-pole", "substation", "lighte
 data:extend({ lighted_small_pole, lighted_medium_pole, lighted_big_pole, lighted_substation })
 
 -- Bob's variants
-if bobmods.power then
+if bobmods and bobmods.power then
     local lighted_med_pole_2 = copy_prototype("electric-pole", "medium-electric-pole-2", "lighted-medium-electric-pole-2", "__LightedElectricPoles__/graphics/icons/medium-electric-pole.png")
     local lighted_med_pole_3 = copy_prototype("electric-pole", "medium-electric-pole-3", "lighted-medium-electric-pole-3", "__LightedElectricPoles__/graphics/icons/medium-electric-pole.png")
     local lighted_med_pole_4 = copy_prototype("electric-pole", "medium-electric-pole-4", "lighted-medium-electric-pole-4", "__LightedElectricPoles__/graphics/icons/medium-electric-pole.png")

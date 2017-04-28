@@ -21,30 +21,30 @@ for index, force in pairs(game.forces) do
         recipes["lighted-substation"].enabled = true
     end
 
-    if techs["electric-pole-2"].researched then
+    if techs["electric-pole-2"] and techs["electric-pole-2"].researched then
         recipes["lighted-medium-electric-pole-2"].enabled = true
         recipes["lighted-big-electric-pole-2"].enabled = true
     end
 
-    if techs["electric-pole-3"].researched then
+    if techs["electric-pole-3"] and techs["electric-pole-3"].researched then
         recipes["lighted-medium-electric-pole-3"].enabled = true
         recipes["lighted-big-electric-pole-3"].enabled = true
     end
 
-    if techs["electric-pole-4"].researched then
+    if techs["electric-pole-4"] and techs["electric-pole-4"].researched then
         recipes["lighted-medium-electric-pole-4"].enabled = true
         recipes["lighted-big-electric-pole-4"].enabled = true
     end
 
-    if techs["electric-substation-2"].researched then
+    if techs["electric-substation-2"] and techs["electric-substation-2"].researched then
         recipes["lighted-substation-2"].enabled = true
     end
 
-    if techs["electric-substation-3"].researched then
+    if techs["electric-substation-3"] and techs["electric-substation-3"].researched then
         recipes["lighted-substation-3"].enabled = true
     end
 
-    if techs["electric-substation-4"].researched then
+    if techs["electric-substation-4"] and techs["electric-substation-4"].researched then
         recipes["lighted-substation-4"].enabled = true
     end
 end

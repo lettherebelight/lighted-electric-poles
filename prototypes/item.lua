@@ -62,7 +62,7 @@ data:extend({
     }
 })
 
-if bobmods.power then
+if bobmods and bobmods.power then
 
     data:extend({
         {
